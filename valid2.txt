@@ -1,0 +1,23 @@
+_int_ y -> 11.
+for i -> 1 2 3. [
+	for j -> 10 1 -1. [
+		ifgteq y 10. [
+			_bool_ k -> false.
+		]
+		_string_ p -> (1f_dsa).
+	]
+	_string_ val -> (asdf).
+]
+_int_ x -> 1.
+_int_ x -> x + 11 * 4 / 2 - 3 % 5 + y.
+_bool_ z -> true.
+show z.
+show x.
+_bool_ w -> ! z | z.
+show w.
+_bool_ u -> ! z | false.
+show u.
+_bool_ q -> ! z.
+show y.
+show val.
+show p.

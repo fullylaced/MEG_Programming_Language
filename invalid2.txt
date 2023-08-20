@@ -1,0 +1,2 @@
+_int_ y -> 11.
+_bool_ y -> true.

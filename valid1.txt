@@ -1,0 +1,15 @@
+_int_ x -> 0.
+_int_ y -> 50.
+_bool_ z -> false.
+for i -> 0 100 1. [
+	for j -> 10 0 -1. [
+		ifgteq i y. [
+			_int_ x -> x + 1.
+		]
+	]
+]
+ifeq x 500. [
+	_bool_ z -> ! z.
+]
+show x.
+show z.
